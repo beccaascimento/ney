@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Prático de Vendas | Passo a Passo</title>
+    <style>
+        :root {
+            --primary-color: #2b5c8f;
+            --secondary-color: #f39c12;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #2c3e50;
+            --highlight-bg: #fff3cd;
+            --highlight-border: #ffeba2;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        /* Topo e Banner */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Destaque Palavras Grifadas */
+        mark, .highlight {
+            background-color: var(--highlight-bg);
+            color: #856404;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+            border: 1px solid var(--highlight-border);
+        }
+
+        /* Estrutura Principal */
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Módulos do Curso */
+        .modulo-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-left: 6px solid var(--primary-color);
+        }
+
+        .modulo-title {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 8px;
+        }
+
+        .passo-list {
+            list-style: none;
+        }
+
+        .passo-item {
+            margin-bottom: 1.2rem;
+            background: #fdfdfd;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .passo-item input[type="checkbox"] {
+            margin-top: 5px;
+            transform: scale(1.3);
+            cursor: pointer;
+        }
+
+        .passo-conteudo {
+            flex-grow: 1;
+        }
+
+        .passo-numero {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* Bloco Regra de Ouro */
+        .regra-ouro {
+            background: #e8f4f8;
+            border: 2px dashed var(--primary-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .regra-ouro h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>📚 Curso Prático: Como Vender Passo a Passo</h1>
+        <p>Aprenda o processo completo de vendas com os conceitos fundamentais grifados.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="modulo-card">
+            <h2 class="modulo-title">📘 Módulo 1: Preparação e Conhecimento</h2>
+            <ul class="passo-list">
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">1. Conheça seu Produto ou Serviço:</span> 
+                        Antes de tentar vender, você precisa dominar o que está oferecendo. Entenda as <mark>características</mark>, a <mark>utilidade</mark> e, principalmente, os <mark>benefícios</mark> do produto.
+                    </div>
+                </li>
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">2. Defina o Cliente Ideal (Persona):</span> 
+                        Identifique quem é o seu público-alvo. Descubra quais são as <mark>necessidades</mark>, os <mark>desejos</mark> e as <mark>dores</mark> que o seu produto pode resolver para essa pessoa.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="modulo-card">
+            <h2 class="modulo-title">🤝 Módulo 2: O Primeiro Contato (Prospecção e Abordagem)</h2>
+            <ul class="passo-list">
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">3. Prospecção Ativa:</span> 
+                        Vá em busca de novos clientes em potencial. Utilize redes sociais, indicações ou abordagens diretas de forma <mark>estratégica</mark> e <mark>respeitosa</mark>.
+                    </div>
+                </li>
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">4. Conexão Inicial (Rapport):</span> 
+                        O primeiro impacto é fundamental. Crie uma <mark>relação de confiança</mark> rápida através de empatia, simpatia e uma escuta ativa.
+                    </div>
+                </li>
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">5. Identificação de Necessidades:</span> 
+                        Faça perguntas abertas para entender a fundo o problema do cliente. O objetivo aqui é <mark>diagnosticar</mark> antes de tentar vender.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="modulo-card">
+            <h2 class="modulo-title">💡 Módulo 3: Apresentação e Negociação</h2>
+            <ul class="passo-list">
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">6. Apresentação de Valor:</span> 
+                        Mostre como o seu produto resolve o problema específico do cliente. Não venda apenas o objeto; venda a <mark>solução</mark> e a <mark>transformação</mark>.
+                    </div>
+                </li>
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">7. Contorno de Objeções:</span> 
+                        Esteja preparado para ouvir dúvidas sobre preço, tempo ou utilidade. Responda sempre com <mark>argumentos sólidos</mark>, <mark>provas sociais</mark> (como depoimentos) e <mark>segurança</mark>.
+                    </div>
+                </li>
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">8. Gatilhos Mentais:</span> 
+                        Use técnicas persuasivas com ética, como a <mark>escassez</mark> (estoque limitado), <mark>urgência</mark> (prazo final) e <mark>autoridade</mark> (domínio do assunto).
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="modulo-card">
+            <h2 class="modulo-title">🚀 Módulo 4: Fechamento e Pós-Venda</h2>
+            <ul class="passo-list">
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">9. Técnicas de Fechamento:</span> 
+                        Identifique os sinais de compra do cliente e conduza a conversa para a finalização. Faça perguntas diretas de confirmação para selar o <mark>acordo</mark>.
+                    </div>
+                </li>
+                <li class="passo-item">
+                    <input type="checkbox">
+                    <div class="passo-conteudo">
+                        <span class="passo-numero">10. Pós-Venda e Fidelização:</span> 
+                        A venda não termina no pagamento. Entre em contato após a entrega para garantir a <mark>satisfação</mark>, pedir <mark>feedbacks</mark> e incentivar <mark>novas compras</mark> no futuro.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <div class="regra-ouro">
+            <h3>💡 Regra de Ouro do Vendedor</h3>
+            <p><em>"Vender não é empurrar um produto, é <mark>ajudar o cliente</mark> a tomar a melhor decisão para <mark>resolver um problema</mark>."</em></p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Curso de Vendas Passo a Passo. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
