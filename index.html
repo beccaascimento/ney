@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como Vender de Verdade | Guia Prático</title>
+    <title>Apresentação: Curso Prático de Vendas</title>
     <style>
         :root {
             --primary: #1e3a8a;
-            --accent: #d97706;
+            --secondary: #0284c7;
             --bg: #f8fafc;
             --card-bg: #ffffff;
-            --text: #1e293b;
+            --text: #0f172a;
             --mark-bg: #fef08a;
             --mark-text: #854d0e;
         }
@@ -25,239 +25,132 @@
         body {
             background-color: var(--bg);
             color: var(--text);
-            line-height: 1.7;
-            font-size: 18px; /* Letras maiores no geral */
-            padding-bottom: 60px;
+            line-height: 1.8;
+            font-size: 20px; /* Fonte bem grande para facilitar a leitura rápida */
+            padding-bottom: 80px;
         }
 
-        /* Topo */
+        /* Topo do Apresentador */
         header {
-            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            background: linear-gradient(135deg, #1e3a8a 0%, #0284c7 100%);
             color: white;
             text-align: center;
             padding: 3.5rem 1.5rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
         }
 
         header h1 {
-            font-size: 2.8rem; /* Título bem grande */
+            font-size: 3rem;
             margin-bottom: 0.8rem;
         }
 
         header p {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             opacity: 0.95;
         }
 
-        /* Palavras grifadas */
+        /* Palavras-chave grifadas */
         mark {
             background-color: var(--mark-bg);
             color: var(--mark-text);
-            padding: 3px 8px;
+            padding: 4px 10px;
             border-radius: 6px;
-            font-weight: 700;
+            font-weight: bold;
         }
 
         /* Container principal */
         .container {
-            max-width: 900px;
-            margin: 2.5rem auto;
-            padding: 0 1.2rem;
+            max-width: 950px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
         }
 
-        /* Blocos de módulos */
+        /* Módulos do Treinamento */
         .modulo-card {
             background: var(--card-bg);
-            border-radius: 16px;
+            border-radius: 20px;
             padding: 2.5rem;
-            margin-bottom: 2.5rem;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-            border-left: 8px solid var(--primary);
+            margin-bottom: 3rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+            border-left: 10px solid var(--primary);
         }
 
         .modulo-title {
             color: var(--primary);
-            font-size: 1.8rem;
+            font-size: 2rem;
             margin-bottom: 1.5rem;
             border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 10px;
+            padding-bottom: 12px;
         }
 
-        .passo-list {
-            list-style: none;
-        }
-
-        .passo-item {
-            margin-bottom: 1.5rem;
+        .fala-box {
             background: #f1f5f9;
-            padding: 1.5rem;
-            border-radius: 12px;
-            display: flex;
-            align-items: flex-start;
-            gap: 15px;
+            border-radius: 14px;
+            padding: 1.8rem;
+            margin-bottom: 1.8rem;
+            border-left: 5px solid var(--secondary);
         }
 
-        .passo-item input[type="checkbox"] {
-            margin-top: 8px;
-            width: 22px;
-            height: 22px;
-            cursor: pointer;
-        }
-
-        .passo-conteudo {
-            flex-grow: 1;
-            font-size: 1.15rem; /* Texto do conteúdo ampliado */
-        }
-
-        .passo-numero {
+        .fala-titulo {
+            font-size: 1.3rem;
             font-weight: bold;
-            color: var(--primary);
-            font-size: 1.25rem;
+            color: var(--secondary);
+            margin-bottom: 8px;
             display: block;
-            margin-bottom: 4px;
         }
 
-        /* Destaque da frase final */
+        .fala-texto {
+            font-size: 1.25rem;
+            color: #334155;
+        }
+
+        /* Bloco de Destaque Final */
         .regra-ouro {
             background: #eff6ff;
             border: 3px dashed var(--primary);
-            border-radius: 16px;
-            padding: 2rem;
+            border-radius: 20px;
+            padding: 2.5rem;
             text-align: center;
-            margin-top: 3rem;
+            margin-top: 3.5rem;
         }
 
         .regra-ouro h3 {
             color: var(--primary);
-            font-size: 1.8rem;
-            margin-bottom: 0.8rem;
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
         }
 
         .regra-ouro p {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
+            line-height: 1.6;
         }
 
         footer {
             text-align: center;
             padding: 2rem;
             color: #64748b;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Bora Aprender a Vender de Verdade! 🚀</h1>
-        <p>Um passo a passo direto ao ponto, sem enrolação e do jeito que a gente conversa no dia a dia.</p>
+        <h1>🎤 Roteiro de Apresentação: Como Vender Passo a Passo</h1>
+        <p>"Fala pessoal! Sejam bem-vindos ao nosso curso. Hoje eu vou te ensinar o passo a passo para vender qualquer produto de forma simples e eficiente!"</p>
     </header>
 
     <main class="container">
 
         <section class="modulo-card">
-            <h2 class="modulo-title">🧠 Passo 1: Fazer a lição de casa</h2>
-            <ul class="passo-list">
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">1. Domine o que você tá vendendo</span> 
-                        Não dá pra oferecer algo se nem você conhece direito. Entenda as <mark>características</mark>, pra que serve e, principalmente, quais são os <mark>benefícios reais</mark> do seu produto.
-                    </div>
-                </li>
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">2. Saiba exatamente com quem tá falando</span> 
-                        Quem é o seu cliente ideal? Descubra o que ele precisa, os <mark>desejos</mark> dele e quais <mark>problemas</mark> você consegue resolver.
-                    </div>
-                </li>
-            </ul>
-        </section>
+            <h2 class="modulo-title">📌 Módulo 1: A Preparação (O que você faz antes de falar com o cliente)</h2>
+            
+            <div class="fala-box">
+                <span class="fala-titulo">Passo 1 — Dominar o seu produto</span>
+                <p class="fala-texto">
+                    "Gente, a primeira coisa que você precisa fazer é dominar o seu produto. Não adianta só saber o preço. Você tem que conhecer as <mark>características</mark>, pra que ele serve de verdade e, principalmente, quais são os <mark>benefícios reais</mark> que ele vai entregar pra quem comprar."
+                </p>
+            </div>
 
-        <section class="modulo-card">
-            <h2 class="modulo-title">💬 Passo 2: Trocar a primeira ideia</h2>
-            <ul class="passo-list">
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">3. Vá atrás de gente interessada</span> 
-                        Use redes sociais, peça indicação ou mande mensagem direta. O segredo é ter uma estratégia <mark>organizada</mark> e sempre com muito <mark>respeito</mark>.
-                    </div>
-                </li>
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">4. Quebre o gelo logo de cara</span> 
-                        A primeira impressão conta muito! Crie uma <mark>relação de confiança</mark> sendo simpático, trocando uma ideia sincera e ouvindo de verdade.
-                    </div>
-                </li>
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">5. Escute mais do que fala</span> 
-                        Faça perguntas abertas. Deixe a pessoa contar a história dela pra você <mark>entender a necessidade</mark> antes de tentar empurrar qualquer coisa.
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="modulo-card">
-            <h2 class="modulo-title">🤝 Passo 3: Mostrar a solução e negociar</h2>
-            <ul class="passo-list">
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">6. Mostre o valor real da parada</span> 
-                        Explique direitinho como o seu produto resolve aquela dor do cliente. Não venda só o objeto, venda a <mark>transformação</mark> que ele traz.
-                    </div>
-                </li>
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">7. Saiba responder às dúvidas sem travar</span> 
-                        Quando falarem de preço ou tempo, não se apavore. Mantenha a calma e responda com <mark>argumentos firmes</mark> e <mark>provas</mark> de quem já comprou e gostou.
-                    </div>
-                </li>
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">8. Use gatilhos do jeito certo</span> 
-                        Deixe claro quando for as últimas unidades com senso de <mark>urgência</mark>, passe <mark>segurança</mark> e mostre que você domina o assunto.
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="modulo-card">
-            <h2 class="modulo-title">🎉 Passo 4: Fechar o negócio e manter o contato</h2>
-            <ul class="passo-list">
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">9. Hora de fechar a venda</span> 
-                        Quando perceber que a pessoa gostou, vá direto ao ponto e confirme o <mark>acordo</mark> sem enrolação.
-                    </div>
-                </li>
-                <li class="passo-item">
-                    <input type="checkbox">
-                    <div class="passo-conteudo">
-                        <span class="passo-numero">10. Cuide do cliente depois que ele pagar</span> 
-                        A venda não acaba na entrega. Mande uma mensagem pra saber se deu tudo certo, garanta a <mark>satisfação</mark> dele e deixe a porta aberta para <mark>próximas compras</mark>.
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <div class="regra-ouro">
-            <h3>💡 O grande segredo:</h3>
-            <p><em>"Vender de verdade não é empurrar nada pra ninguém, é <mark>ajudar a pessoa</mark> a resolver o problema dela!"</em></p>
-        </div>
-
-    </main>
-
-    <footer>
-        <p>Guia Prático de Vendas • Feito pra ler fácil e aplicar rápido!</p>
-    </footer>
-
-</body>
-</html>
+            <div class="fala-box">
+                <span class="fala-titulo
